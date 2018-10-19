@@ -17,6 +17,6 @@ Four models were built to come up with fraud prediction:
 
 In the first two models the introduction of SMOTE upsampling did very little in the way of improving the performance of the model: ROC AUC went from 0.958 to 0.977 when using SMOTE. Recall and precision went from (0.76, 0.93) to (0.80, 0.85)
 
-The logistic regression model experimented a degradation in performance when using SMOTE: ROC AUC went from 0.975 to 0.974. More importantly, the use of SMOTW upsampling brough recall and precision from (0.63, 0.86) to (0.93, 0.06) for the pre-defined 0.5 decision threshold. 
+The logistic regression model experimented a degradation in performance when using SMOTE: ROC AUC went from 0.975 to 0.974. More importantly, the use of SMOTE upsampling brough recall and precision from (0.63, 0.86) to (0.93, 0.06) for the pre-defined 0.5 decision threshold. 
 
 Bottom line: when working with strongly imbalanced datasets, focus on getting good features!
